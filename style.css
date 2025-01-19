@@ -26,18 +26,32 @@ body{
     margin-top: 5vh;
 }
 .select-container{
+    height: 8vh;
     display: flex;
-    flex-direction: column;
+    width: 7rem;
+    border-radius: 0.50rem;
+    border: 1px solid grey;
 }
-
+.select-container img{
+    width: 4rem;
+    border-radius: 0.50rem;
+    background-color: bisque;
+}
+.option-list{
+    border-radius: 0.50rem;
+    font-size: 1rem;
+    width: auto;
+    border: none;
+    cursor: pointer;
+}
 .symbol{
+    font-size: 1.5rem;
+    margin-top: 5vh;
     width: 10vh;
+    margin-left: 5vh;
 }
 .from,.to{
     width: 20vh;
-}
-.option-list{
-    background-color: rgb(122, 243, 130);
 }
 
 form,button,input,#res{
@@ -49,15 +63,20 @@ input{
     outline: none;
     font-size: larger;
 }
-form,button{
+form{
     margin-top: 2vh;
 }
 button{
+    margin-top: 5vh;
     background-color: blue;
     color: white;
+    height: 5vh;
+    font-size: larger;
+    cursor: pointer;
 }
 #res{
     background-color: rgb(203, 107, 107);
     color: black;
     margin-top: 2vh;
+    font-size: large;
 }

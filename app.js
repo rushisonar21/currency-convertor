@@ -32,7 +32,7 @@ for(let select_list of select_lists){
 
 const handler = (e)=>{
     target = e.target
-    currency_code  = target.options[target.selectedIndex].value
+    currency_code = target.value
     country = countryList[currency_code]
     if(target.getAttribute("id")=="select-from"){
         let url = `https://flagsapi.com/${country}/flat/64.png`
